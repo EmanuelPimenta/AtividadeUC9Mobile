@@ -1,0 +1,67 @@
+[gd_scene load_steps=2 format=3 uid="uid://cc6xmo0cn2apg"]
+
+[ext_resource type="FontFile" uid="uid://d154bnr8aqaxq" path="res://kenvector_future_thin.ttf" id="1_3dxap"]
+
+[node name="controles" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 0
+offset_right = 544.0
+offset_bottom = 960.0
+color = Color(0, 0, 0, 1)
+
+[node name="controles" type="Label" parent="."]
+layout_mode = 0
+offset_left = 48.0
+offset_top = 248.0
+offset_right = 273.0
+offset_bottom = 271.0
+scale = Vector2(2, 2)
+theme_override_fonts/font = ExtResource("1_3dxap")
+text = "Controles e Instruções"
+
+[node name="sobreposicao1" type="Label" parent="."]
+layout_mode = 0
+offset_left = 48.0
+offset_top = 248.0
+offset_right = 273.0
+offset_bottom = 271.0
+scale = Vector2(2, 2)
+theme_override_fonts/font = ExtResource("1_3dxap")
+text = "Controles e Instruções"
+
+[node name="instrucao" type="Label" parent="."]
+layout_mode = 0
+offset_left = 40.0
+offset_top = 360.0
+offset_right = 282.0
+offset_bottom = 462.0
+scale = Vector2(2, 2)
+theme_override_fonts/font = ExtResource("1_3dxap")
+text = "Nesse Jogo o seu objetivo 
+é coletar as moedas se 
+movimentando pelos 
+direcionais na tela. 
+Jogo feito para celular.
+"
+
+[node name="sobreposicao2" type="Label" parent="."]
+layout_mode = 0
+offset_left = 40.0
+offset_top = 360.0
+offset_right = 282.0
+offset_bottom = 462.0
+scale = Vector2(2, 2)
+theme_override_fonts/font = ExtResource("1_3dxap")
+text = "Nesse Jogo o seu objetivo 
+é coletar as moedas se 
+movimentando pelos 
+direcionais na tela. 
+Jogo feito para celular.
+"
