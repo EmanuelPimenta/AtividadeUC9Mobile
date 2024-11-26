@@ -11,6 +11,7 @@ Crie uma tela inicial do jogo, baseado no jogo disponibilizado.
 Crie a segunda tela do jogo, e mude o sprite do player, mude a mensagem de vitória/derrota,  troque moedas por espadas (criar ou pegar sprites da internet) e faça a transição que o coração faz por outra figura.
 
 Cauã Enzo --> [cauaenzo](https://github.com/cauaenzo)
+
 Emanuel Pimenta --> [EmanuelPimenta](https://github.com/EmanuelPimenta)
 
 
